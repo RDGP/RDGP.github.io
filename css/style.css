@@ -30,9 +30,9 @@ body {
   margin: none;
 }
 
-.animation {
-  width: 40vw;
-  height: 50vh;
+.animcontainer {
+  width: 45vw;
+  height: 35vw;
   border: 1px solid black;
   display: grid;
   grid-template-columns: 60% 40%;
@@ -76,4 +76,8 @@ body {
 
 .yellow {
   background-color: yellow;
+}
+
+.right {
+
 }
