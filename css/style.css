@@ -1,3 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+* {
+  text-decoration: none;
+  list-style: none;
+  font-family: Quicksand;
+  font-weight: bolder;
+}
+
 body {
+  background-color: white;
+  color: black;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 4vmin;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15vmin;
+  margin-right: 15vmin;
+}
+
+.text .animation {
+  padding: none;
+  margin: none;
+}
+
+.animation {
+  width: 40vw;
+  height: 50vh;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100%;
+}
+
+.left {
+  grid-column: 1 / 2;
+  border-right: 1px black solid;
+}
+.right {
+  grid-column: 2 / 2;
+}
+
+.barra {
+  width: 100%;
+  height: 8%;
+  border-bottom: 1px black solid;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.circles {
+  height: 100%;
+  margin: 0;
+  border: 1px black solid;
+  border-radius: 50%;
+  height: 15px;
+  margin: 3px;
+  width: 15px;
+}
+
+.red {
   background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
 }
